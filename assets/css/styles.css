@@ -96,10 +96,6 @@ header img {
   font-weight: 600;
 }
 
-#sprint {
-  /*margin: 50px 0;*/
-}
-
 #sprint i {
   font-size: 52px;
   color: #F15637;
@@ -164,6 +160,7 @@ footer {
   padding: 80px 0;
   background-color: #ECECEC;
 }
+/* Responsive classes */
 
 @media (min-width: 300px) {
   h1 {
