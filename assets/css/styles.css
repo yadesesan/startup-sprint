@@ -1,0 +1,184 @@
+body {
+  font-family: 'Work Sans';
+}
+
+h1, h2 {
+  font-family: 'GalanoGrotesque';
+}
+
+h3, h4 {
+  font-family: 'Work Sans';
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 24px;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#hero {
+  background: url("/assets/img/hero-imagae.png") left no-repeat;
+  min-height: 600px;
+}
+
+@media (min-width: 300px) {
+  #hero {
+    /*padding: 60px 0px;*/
+    background: url("/assets/img/hero-imagae.png") left no-repeat;
+  }
+}
+
+#hero img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 202px;
+}
+
+#hero h1 {
+  margin-bottom: 40px;
+}
+
+#hero p {
+  margin-bottom: 40px;
+  line-height: 36px;
+}
+
+#hero a {
+  padding: 18px 68px;
+  border-radius: 75px;
+  background-color: #F15A38;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hero-box {
+  padding: 50px;
+  background: #ffffff;
+}
+
+@media (min-width: 300px) {
+  .hero-box {
+    padding: 24px;
+    background: #ffffff;
+  }
+}
+
+#ongoing {
+  margin: 100px 0 120px 0;
+}
+
+#ongoing .container {
+  padding: 24px 50px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 2px solid #F15A38;
+}
+
+#ongoing h2 {
+  margin-bottom: 42px;
+}
+
+#ongoing h4 {
+  color: #F15637;
+  font-weight: 600;
+}
+
+#sprint {
+  /*margin: 50px 0;*/
+}
+
+#sprint i {
+  font-size: 52px;
+  color: #F15637;
+  margin-bottom: 35px;
+}
+
+#sprint h2 {
+  margin-bottom: 60px;
+}
+
+#sprint h3 {
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+#details {
+  margin: 90px 0 120px 0;
+}
+
+#details h2 {
+  margin-bottom: 80px;
+}
+
+#startups {
+  margin: 120px 0;
+}
+
+#startups h2 {
+  margin-bottom: 80px;
+}
+
+#startups img {
+  height: 36px;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+
+#pricing {
+  margin: 90px 0;
+}
+
+#pricing p {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+#pricing h2 {
+  margin-bottom: 24px;
+}
+
+#pricing a {
+  padding: 18px 68px;
+  border-radius: 75px;
+  background-color: #F15A38;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+footer {
+  padding: 80px 0;
+  background-color: #ECECEC;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
