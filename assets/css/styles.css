@@ -118,10 +118,38 @@ header img {
 #details {
   margin: 90px 0 120px 0;
 }
-
+.card{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid #F15A38;
+  border-radius: .32rem;
+  margin-bottom: 1rem;
+}
+.card-header{
+  padding: 40px 12px;
+  margin-bottom: 0;
+  background-color: #fff;
+  /* border-bottom: 1px solid rgba(0,0,0,.125); */
+  text-align: center;
+}
 #details h2 {
   margin-bottom: 80px;
 }
+#details h3{
+  font-weight: 600;
+}
+
+#details a{
+  color: #262626
+}
+
 
 #startups {
   margin: 120px 0;
@@ -181,17 +209,14 @@ footer {
   h1 {
     font-size: 3rem;
   }
+  p{
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1280px;
-  }
-}
-
-@media (min-width: 300px) {
-  #hero {
-    background: url("../../assets/img/hero-imagae.png") left no-repeat;
   }
 }
 
