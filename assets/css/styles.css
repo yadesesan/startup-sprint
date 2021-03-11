@@ -169,29 +169,23 @@ footer {
   h1 {
     font-size: 2rem;
   }
-}
 
-@media (min-width: 300px) {
   p {
     font-size: 1.3rem;
   }
 }
 
+
 @media (min-width: 1200px) {
   h1 {
     font-size: 3rem;
   }
-}
-
-@media (min-width: 1200px) {
+  p {
+    font-size: 1.5rem;
+  }
   .container {
     max-width: 1280px;
   }
 }
 
-@media (min-width: 300px) {
-  #hero {
-    background: url("../../assets/img/hero-imagae.png") left no-repeat;
-  }
-}
 
